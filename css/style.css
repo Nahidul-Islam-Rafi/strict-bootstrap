@@ -302,7 +302,7 @@ footer p {
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
   .banner h1 {
-    font-size: 44px;
+    font-size: 64px;
   }
   .banner p {
     font-size: 16px;
@@ -327,7 +327,7 @@ footer p {
 /* Small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   .banner h1 {
-    font-size: 64px;
+    font-size: 84px;
   }
 }
 
