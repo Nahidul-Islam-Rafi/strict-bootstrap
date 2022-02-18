@@ -215,7 +215,6 @@ header {
   word-spacing: 2px;
 }
 .contact-form {
-  width: 40%;
   margin: 0 auto;
 }
 .form-control {
@@ -236,8 +235,6 @@ header {
   margin-bottom: 24px;
 }
 .sub {
-  height: 14px;
-  width: 14px;
   background-color: #999999;
   margin-top: 12px;
   margin-left: 12px;
@@ -256,9 +253,10 @@ label {
   font-family: "Lato", sans-serif;
   font-size: 17px;
   color: white;
-  margin-left: 26px;
   transition: 0.4s ease-in-out;
   margin-bottom: 80px;
+  text-align: center;
+  margin-left: 210px;
 }
 .send-btn:hover {
   background: #15a4fa;
@@ -327,17 +325,60 @@ footer p {
   }
 }
 
+/* Small devices (portrait phones, less than 576px) */
+@media (min-width: 100px) and (max-width: 575.98px) {
+  .banner h1 {
+    font-size: 84px;
+  }
+  .service-box {
+    margin-top: 10px;
+  }
+  .send-btn {
+    margin: 20px auto !important;
+  }
+  .checker {
+    margin: 0 auto;
+    text-align: center;
+  }
+  footer p {
+    font-size: 11px;
+  }
+}
 /* Small devices (landscape phones, less than 768px) */
 @media (min-width: 576px) and (max-width: 767.98px) {
   .banner h1 {
     font-size: 84px;
   }
+  .service-box {
+    margin-top: 10px;
+  }
+  .send-btn {
+    margin-top: 20px;
+    margin-left: 200px !important;
+  }
+  .checker {
+    margin: 0 auto;
+    text-align: center;
+  }
+  footer p {
+    font-size: 13px;
+  }
 }
 
 /* Medium devices (tablets, less than 992px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .send-btn {
+    margin-top: 20px;
+    margin-left: 160px !important;
+  }
+  .checker {
+    margin: 0 auto;
+  }
 }
 
 /* Large devices (desktops, less than 1200px) */
 @media (max-width: 1199.98px) {
+  .send-btn {
+    margin-left: 150px;
+  }
 }
